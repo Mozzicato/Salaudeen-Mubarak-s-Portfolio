@@ -1,0 +1,23 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+background-color: white; 
+width: 60px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-top: 20px;
+align-items: center;
+border-right-width: 1px;
+border-right-color: rgb(211, 209, 209);
+border-right-style: solid;
+
+}
+.sb-i {
+  height: 30px;
+}
+.psb {
+  font-size: 9px;
+}

@@ -1,0 +1,94 @@
+/* Reset some basic elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header .logo h1 {
+  display: inline-block;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #4caf50;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Features Section */
+.features {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.features .feature-item {
+  margin-bottom: 30px;
+}
+
+.features h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.features p {
+  font-size: 16px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

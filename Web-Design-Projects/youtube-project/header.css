@@ -1,0 +1,165 @@
+.header-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 55px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(211, 209, 209);
+  z-index: 100;
+}
+
+.center-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 400px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+  width: 200px;
+  flex-shrink: 0;
+
+}
+
+.youtube-menu {
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.youtube-logo {
+  height: 20px;
+}
+
+.voice-search-icon {
+  height: 25px;
+}
+
+.notifications {
+  height: 25px;
+}
+
+.youtube-apps {
+  height: 25px;
+}
+.search {
+  height: 25px;
+}
+.search-button {
+  width: 60px;
+  height: 42px;
+  margin-left: -1px;
+  background-color: rgb(240, 240, 240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  margin-right: 10px;
+}
+.voice-button {
+width:40px;
+height: 41px;
+border-radius: 20px;
+border-style: none;
+background-color: rgb(250, 250, 250);
+}
+.search-bar {
+  flex: 1;
+  height: 20px;
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  border-radius: 2px;
+  box-shadow: inset 1px  2px 3px
+  rgba(0, 0, 0, 0.05);
+  width: 0;
+}
+.search-bar::placeholder {
+  font-size: 16px;
+
+}
+
+.channel-name {
+  height: 28px;
+  border-radius: 14px;
+}
+
+.upload {
+  height: 25px;
+}
+.notifications-count {
+  border-radius: 50px;
+  background-color: rgb(200, 0, 0);
+  position: absolute;
+  top: -1px;
+  right: 5px;
+  font-size: 9px;
+  color: white;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.search-button,
+.voice-button,
+.upload-div,
+.youtube-apps-div,
+.notifications-count-div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 41.5px;
+  /* Set a fixed height for all buttons/divs */
+  width: 41.5px;
+  /* Set a fixed width for all buttons/divs */
+}
+
+.search-button .tips,
+.voice-button .tips,
+.upload-div .tips,
+.youtube-apps-div .tips,
+.notifications-count-div .tips {
+  position: absolute;
+  bottom: -24px;
+  /* Adjust if necessary */
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background-color: rgb(105, 100, 100);
+  opacity: 0;
+  transition: opacity 0.15s;
+  padding-left: 4px;
+  padding-right: 4px;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search-button:hover .tips,
+.voice-button:hover .tips,
+.upload-div:hover .tips,
+.youtube-apps-div:hover .tips,
+.notifications-count-div:hover .tips {
+  opacity: 1;
+}
+.notifications-count-div {
+position: relative;
+  margin-top: 7px;
+}
