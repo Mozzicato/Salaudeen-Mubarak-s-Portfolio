@@ -291,4 +291,7 @@ nav ul li a:hover {
         text-align: center;
         padding: 10px;
     }
+    .profile-pic {
+        height: 50px;
+    }
 }
