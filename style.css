@@ -295,12 +295,12 @@ nav ul li a:hover {
         height: 50px;
     }
     .btn {
-        margin-top: 120px;
+        margin-bottom: 120px;
     }
     #autoTyping {
         font-size: 23px;
     }
     .about-text {
-        font-size: 5px;
+        font-size: 10px;
     }
 }
